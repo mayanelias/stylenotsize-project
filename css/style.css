@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    font-family:'Dancing Script', cursive; 
+    position:fixed;
+   margin-top: 0px;
+}
+ul li:nth-child(1){
+    margin-left: 1150px;
+    
+}
+.myVideo{
+    margin-left: 400px;
+    background-color:black;
+    width: 50%;
+    margin-left:300px;
+    position: relative;
+}   
+nav{
+    background-color:black;
+}
+
+    
+ ul .signUp{
+    text-decoration: none;
+    color: snow;
+    font-size: 20px;
+    list-style: none;
+}
+ ul .signUp:hover{
+    color:lightpink;
+}
+.women{
+    width: 100%;
+    height: 100%;
+   
+}
+.women .title1 h1{
+    font-size: 200px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 400px;
+    color: lightpink;
+}
+
+.women.womenLink h1{
+   
+    text-decoration: none;
+    font-size: 200px;
+}
+ .women .womenLink h1:hover{
+    color: black;
+}
+
+.women .womenImage img{
+    width: 100%;
+}
+.men{
+    width: 100%;
+    height: 100%;
+   
+}
+.men .title2 h1{
+    font-size: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 450px;
+    color:snow;
+}
+
+.men .menLink h1{
+   
+    text-decoration: none;
+}
+.men .title2 h1:hover{
+    color: black;
+}
+.men .menImage img{
+    width: 100%;
+}
+footer{
+    background-color:black;
+}
+.footer .logoFooter{
+    text-align: center;
+}
+.footer .whatsapp{
+    color: snow;
+}
+.footer a:hover{
+    color:lightpink
+}
+.footer .contact{
+    color: snow;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+.footer h2{
+text-align: center; 
+}
+.footer .mainPage{
+    text-decoration: none;
+    color: snow; 
+}
+.footer .socialMedia{
+    text-align: right;
+    color: snow;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+@media only screen and (max-width:1024px) {
+    .myVideo{
+        width: 30%;
+        margin-left: 268px;   
+    }
+    ul .signUp{
+        margin-left: 1000px;
+        font-size: 20px;
+    }
+    .women .title1 h1{
+        font-size: 120px;
+        margin-left: 175px;
+        margin-top: 244px;
+    }
+    .men .title2 h1{
+        font-size: 120px;
+        margin-left: 292px;
+        margin-top: 311px;  
+    }
+    .women .womenImage img{
+        width: 86%;
+    }
+    .men .menImage img{
+        width: 86%;
+    }
+    ul li:nth-child(1){
+        margin-right: 0px;
+        position: relative;
+        list-style-type: none;
+        margin-left: 700px;
+    }
+
+}
+@media only screen and (max-width:768px) {
+    .myVideo{
+        width: 30%;
+        margin-left: 228px;   
+    }
+    .women .title1 h1{
+        font-size: 120px;
+        margin-left: 100px;
+        margin-top: 198px;
+    }
+    .men .title2 h1{
+        font-size: 120px;
+        margin-left: 238px;
+        margin-top: 219px;  
+    }
+    
+    ul li:nth-child(1){
+        margin-right: 0px;
+        position: relative;
+        list-style-type: none;
+        margin-left: 499px;
+    }
+
+
+.women .womenImage img{
+    width: 100%;
+}
+.men .menImage img{
+    width: 100%;
+}
+}
+@media only screen and (max-width:426px) {
+    .myVideo{
+        width: 30%;
+        margin-left: 150px;   
+    }
+    .women .title1 h1{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 132px;
+    }
+    .men .title2 h1{
+        font-size: 20px;
+        margin-left: 175px;
+        margin-top: 160px;  
+    }
+    
+    ul li:nth-child(1){
+        margin-right: 0px;
+        position: relative;
+        list-style-type: none;
+        margin-left: 10px;
+    }
+
+}
+.women .womenImage img{
+    width: 100%;
+}
+.men .menImage img{
+    width: 100%;
+}
+
+
+
+

@@ -1,0 +1,153 @@
+header{
+    background-color: black;
+    margin-left: -1px;
+    margin-top: 20px;
+    position: static;
+    margin-top: -10px;
+}
+header h1{
+    background-color: black;
+    color: white;
+    position:relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-name: headerh1;
+    margin-top: -10px;
+    width: 80%;
+    
+}
+@keyframes headerh1{
+    0%{left:0px;}
+    100%{ left:100px;
+    animation-timing-function: ease-in-out;       
+    }
+}
+nav{
+    background-color:lightblue;
+}
+ul{
+    display:flex;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+ul li{
+    list-style: none;
+}    
+ul a{
+    text-decoration: none; 
+    color:snow; 
+}
+ul a:hover{
+    color: lightpink;
+
+}
+.container{
+  border: 2px solid lightblue ;
+}
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text], input[type=name] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text], input[type=lastName] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd; 
+  }
+  button {
+    background-color:lightskyblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
+  footer{
+    background-color:black;
+    margin-top: 100px;
+}
+.footer .logoFooter{
+    text-align: center;
+}
+.footer .whatsapp{
+    color: snow;
+}
+.footer a:hover{
+    color:lightpink
+}
+.footer .contact{
+    color: snow;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+.footer h2{
+text-align: center; 
+}
+.footer .mainPage{
+    text-decoration: none;
+    color: snow; 
+}
+.footer .socialMedia{
+    text-align: center;
+    color: snow;
+    margin-right: 20px;
+    font-size: 20px;
+} 
+h1 b{
+  color: red;
+}
+@media only screen and (max-width:1024px) {
+ header h1{
+   width:50%;
+ }
+ ul li{
+   font-size: 20px;
+ }
+ ul{
+   margin-right: 440px;
+ }  
+}
+ @media only screen and (max-width:768px) {
+  ul{
+    margin-right: 194px;
+  }
+ 
+   
+ } 
+  
+ @media only screen and (max-width:426px) {
+  ul{
+    margin-right: 40px;
+  }
+ 
+   
+ } 
+   
+

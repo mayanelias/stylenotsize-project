@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+header{
+   background-color: black;
+    margin-left: -1px;
+    margin-top: 20px;
+    margin-top: 0px;
+}
+ul{
+    display:flex;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+ul li{
+    display: inline;
+}    
+ul a{
+    text-decoration: none; 
+    color:snow; 
+}
+ul a:hover{
+    color:lightblue;
+}
+nav{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    padding: 50px;
+}
+ h1{
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px lightseagreen;
+    font-size: 40px;
+    animation-duration: .5s;
+    animation-name:h1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+@keyframes h1{
+    0%{}
+    100%{transform: scale(1.05);}
+} 
+
+.slider{
+   display: flex;
+   overflow: hidden;
+   margin-left: 5%;
+   height: 100vh;
+   width:90%
+  
+}
+.slider .card{
+  width: 100%;
+  height: 80%;
+  flex-shrink: 0;
+  animation: moveToside 10s alternate infinite;
+  animation-delay: 3s;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.slider .card img{
+   width:100%;
+   height:100%;
+   }
+
+@keyframes moveToside{
+   0%{
+       transform: translateX(0%);
+   }       
+
+   25%{
+transform: translateX(-100%);
+       
+   }
+   50%{
+       transform: translateX(-200%);  
+   }
+   75%{
+       transform: translateX(-300%);     
+   }
+   100%{
+       transform: translateX(-400%);      
+   }  
+}
+
+ h2{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 40px;
+    color: snow;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px greenyellow ;
+}
+footer{
+    background-color:black;
+    margin-top: 100px;
+    position: relative;
+}
+.footer .logoFooter{
+    text-align: left;
+    height: 100px;
+    width: 100px;
+}
+.footer .whatsapp{
+    color: snow;
+}
+.footer a:hover{
+    color:lightpink
+}
+.footer .contact{
+    color: snow;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+.footer h2{
+text-align: center; 
+}
+.footer .socialMedia{
+    text-align: center;
+    color: snow;
+    margin-right: 20px;
+    font-size: 20px;
+} 
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;  
+}
+.images .price{
+   width: 20%;
+    
+}
+img{
+    width: 100%;
+    height: 200px;
+    border:10px solid black;
+   
+}
+.images .price h4{
+    font-size: 10px;
+    text-align:center;
+    border-bottom: 20px black;
+    font-weight: bold;
+    color: snow;
+}
+b{
+    color:red
+}
+@media only screen and (max-width:426px) {
+    ul li a{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
